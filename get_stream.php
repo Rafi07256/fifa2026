@@ -3,7 +3,7 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *'); 
 
 // আপনার ওয়েবসাইটের ডোমেইন নাম এখানে দিন (www ছাড়া শুধু মূল নামটি দিন, যেমন: techpriyo.com)
-$my_domain = "yourdomain.com"; 
+$my_domain = "fifa2026-ecru.vercel.app"; 
 
 $referer_host = isset($_SERVER['HTTP_REFERER']) ? parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST) : '';
 
