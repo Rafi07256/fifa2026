@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/get_stream.php", "dest": "get_stream.php" },
+    { "src": "/index.php", "dest": "index.php" },
+    { "src": "/(.*)", "dest": "index.php" }
+    ]
+}
